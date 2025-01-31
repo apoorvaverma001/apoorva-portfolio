@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins", sans-serif;
+
+
+}
+
+:root {
+    --body-color: rgba(250, 250, 250, 0);
+}
