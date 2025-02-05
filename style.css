@@ -172,8 +172,6 @@ nav {
     transition: .2s ease-in-out;
 }
 
-
-
 #sun {
     opacity: 0;
 
@@ -205,7 +203,6 @@ body.dark #moon {
     position: relative;
     display: flex;
     justify-content: center;
-    
     min-height: 100vh;
     flex-direction: column;
     width: 50%;
@@ -232,7 +229,7 @@ body.dark #moon {
 .typed-text {
     font-family: sans-serif;
     color: #8749f2;
-    font-size: 8px;
+    font-size: 80px;
     font-weight: 600;
     text-transform: capitalize;
 
@@ -304,27 +301,26 @@ i {
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    animation: iconSlide 4s infinite alternate;
+    animation: iconSlide 5s infinite alternate;
 }
-
 
 
 @keyframes iconSlide {
     25% {
-        border: 2px solid #e6d12e;
-        left: 0px;
+        border: 3px solid #e6d12e;
+        left: 15px;
     }
     50% {
-        border: 2px solid #c40101;
-        left: 70px;
+        border: 3px solid #c40101;
+        left: 140px;
     }
     75% {
-        border: 2px solid #8749f2;
-        left: 145px;
+        border: 3px solid #8749f2;
+        left: 270px;
     }
     100% {
-        border: 2px solid #47ea15;
-        left: 216px;
+        border: 3px solid #47ea15;
+        left: 385px;
     }
 }
 
@@ -412,6 +408,12 @@ i {
     transition: all 0.25s ease;
 }
 
+.about-info figcaption {
+    width: 100%;
+    padding: 25px;
+    position: relative;
+}
+
 
 .about-me .profile {
     border-radius: 50%;
@@ -488,33 +490,33 @@ i {
     width: 90%;
     border-radius: 6px;
     background: #8749f2;
-    animation: progress 0.4s ease-in-out forward;
+    animation: progress 0.4s ease-in-out forwards;
     opacity: 0;
 }
 
-.skill-per.html{
+.skill-per.html {
     animation-delay: 0.1s;
     width: 80%;
 
 }
-.skill-per.javascript{
+.skill-per.javascript {
     animation-delay: 0.1s;
     width: 80%;
 
 }
-.skill-per.react{
+.skill-per.react {
     animation-delay: 0.1s;
     width: 80%;
 
 }
-.skill-per.next{
+.skill-per.next {
     animation-delay: 0.1s;
     width: 80%;
 
 }
-.skill-per.java{
+.skill-per.java {
     animation-delay: 0.1s;
-    width: 8 0%;
+    width: 80%;
 
 }
 
@@ -530,7 +532,7 @@ i {
     
 }
 
-.skills-per .tooltip {
+.skill-per .tooltip {
     position: absolute;
     right: -14px;
     top: -28px;
